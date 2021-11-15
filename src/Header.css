@@ -1,0 +1,17 @@
+.header {
+    background-image: url("./header_banner.jpg");
+    align-items: center;
+    min-height: 400px !important;
+}
+
+.banner__content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 90px 65px 120px;
+}
+
+.banner__content > h1 {
+    color: whitesmoke;
+    font-size: 60px;
+}
