@@ -11,11 +11,12 @@
 .nav__left {
     display: flex;
     align-items: center;
+    padding-left: 50px;
 }
 
 .nav__left > img {
     object-fit: contain;
-    height: 40px;
+    height: 45px;
     margin-right: 10px;
     margin-left: 5px;
 }

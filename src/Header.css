@@ -1,17 +1,18 @@
 .header {
     background-image: url("./header_banner.jpg");
     align-items: center;
-    min-height: 400px !important;
+    height: 52vh;
 }
 
 .banner__content {
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 90px 65px 120px;
+    padding: 70px 85px 120px;
 }
 
 .banner__content > h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
-    font-size: 60px;
+    font-size: 70px;
 }
