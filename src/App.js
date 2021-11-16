@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <div className="content__body">
+      <div className="content__body container">
         <Content />
       </div>
     </div>

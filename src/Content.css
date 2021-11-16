@@ -17,15 +17,15 @@
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 0.4;
+    flex: 0.3;
   }
 
   .double-column {
     display: flex;
-    padding-left: 80px !important;
+    padding-left: 90px !important;
     flex-direction: column;
     flex-basis: 100%;
-    flex: 0.6;
+    flex: 0.7;
   }
 
   .main-paragraph {
