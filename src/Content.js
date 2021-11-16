@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Content() {
     return (
-        <div className="content">
+        <div className="content container">
             <div class='row'>
                 <div class='column double-column'>
                      <div class='text-container main-paragraph'>

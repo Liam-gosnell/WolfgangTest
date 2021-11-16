@@ -1,3 +1,25 @@
 .container {
-    width: 1200px;
+    width: 1000px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 0.3;
+  }
+
+  .double-column {
+    display: flex;
+    padding-left: 90px !important;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 0.7;
+  }

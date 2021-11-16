@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './Header';
 import Content from './Content';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Awards from './Awards';
 
 function App() {
   return (
@@ -9,9 +9,8 @@ function App() {
       <header className="App-header">
         <Header />
       </header>
-      <div className="content__body container">
         <Content />
-      </div>
+        <Awards />
     </div>
   );
 }
