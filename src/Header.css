@@ -1,7 +1,7 @@
 .header {
     background-image: url("./header_banner.jpg");
     align-items: center;
-    height: 52vh;
+    min-height: 400px;
 }
 
 .banner__content {

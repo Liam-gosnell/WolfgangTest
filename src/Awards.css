@@ -1,7 +1,22 @@
 .awards {
+    background-color: whitesmoke;
     display: flex;
     align-content: center;
     align-items: center;
     padding: 64px 0;
+}
+
+.col-filters {
+    background-color: grey;
+    display: flex;
+    flex: 0.4;
+}
+
+.col-awards {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex: 0.6;
 }
 
