@@ -7,7 +7,12 @@ function Awards() {
             <div className="container">
                 <div className="row">
                     <div className="column col-filters">
-                        <p>FILTER</p>
+                        <div className="column__left">
+                            <p>FILTER</p>
+                        </div>
+                        <div className="column__right">
+                            <p>CLEAR FILTERS</p>
+                        </div>
                     </div>
                     <div className="column col-awards">
                         <p>Viewing 14 of 75 awards</p>

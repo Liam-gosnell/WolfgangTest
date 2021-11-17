@@ -7,14 +7,39 @@
 }
 
 .col-filters {
-    background-color: grey;
+    background-color: transparent;
     display: flex;
     flex: 0.4;
 }
 
+.col-filters > p{
+    color: #6E6E6E !important;
+}
+
+.column__left {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.column__left > p {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.column__right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.column__right > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #38897e;
+}
+
+
 .col-awards {
-    background-color: green;
-    display: flex;
+    background-color: transparent;
     align-items: center;
     align-content: center;
     flex: 0.6;
