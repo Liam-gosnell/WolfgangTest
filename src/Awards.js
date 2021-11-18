@@ -1,25 +1,28 @@
-import React from 'react'
-import './Awards.css'
+import React from 'react';
+import './Awards.css';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
 function Awards() {
     return (
-        <div className="awards">
-            <div className="container">
-                <div className="row">
-                    <div className="column col-filters">
-                        <div className="column__left">
-                            <p>FILTER</p>
-                        </div>
-                        <div className="column__right">
-                            <p>CLEAR FILTERS</p>
-                        </div>
+        <div className="awards wrapper">
+            <div className="flexbox">
+                <div className="filters">
+                    <div className="filter-controls">
+                        <label htmlFor="">FILTER</label>
+                        <button>CLEAR FILTERS</button>
                     </div>
-                    <div className="column col-awards">
-                        <p>Viewing 14 of 75 awards</p>
+                    <div className="category">
+                        <button className="button-toggle" onClick="toggleCategoryList('#ceremonies')">
+                            <span>By Awards Ceremony</span>
+                            <span id="ceremonies-icon" className="--closed">
+                                <KeyboardArrowDownIcon />
+                            </span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+       
     )
 }
 

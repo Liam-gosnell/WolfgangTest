@@ -1,47 +1,86 @@
-.awards {
+.wrapper {
     background-color: whitesmoke;
+    margin: 0 auto;
+    max-width: 1180px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.flexbox {
     display: flex;
-    align-content: center;
-    align-items: center;
-    padding: 64px 0;
+    flex-direction: row;
+    margin-top: 1em;
 }
 
-.col-filters {
-    background-color: transparent;
+.filters {
+    width: 100%;
     display: flex;
-    flex: 0.4;
+    flex-direction: column;
 }
 
-.col-filters > p{
-    color: #6E6E6E !important;
+.filter-controls {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    height: fit-content;
+    padding-top: 4px;
+    margin-bottom: 24px;
 }
 
-.column__left {
-    margin-right: auto;
-    margin-left: 0;
+.filter-controls > label {
+    font-size: 0.75rem;
+    font-weight: bold;
 }
 
-.column__left > p {
-    font-size: 12px;
-    font-weight: 600;
-}
-
-.column__right {
-    margin-left: auto;
-    margin-right: 0;
-}
-
-.column__right > p {
-    font-size: 12px;
-    font-weight: 400;
+.filter-controls > button {
+    height: fit-content;
+    background: none;
+    border: none;
+    cursor: pointer;
     color: #38897e;
+    font-size: 0.75rem;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 200ms ease-out;
 }
 
-
-.col-awards {
-    background-color: transparent;
-    align-items: center;
-    align-content: center;
-    flex: 0.6;
+.category {
+    border-bottom: 1px solid #634061;
+    margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
 }
 
+.button-toggle {
+    height: fit-content;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px 0;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    outline: none;
+    color: #6E6E6E;
+}
+
+/* Media Q */
+
+@media only screen and (min-width: 1024px){
+.filters {
+    max-width: 400px;
+}
+}
+
+@media only screen and (min-width: 768px){
+    .filters {
+        max-width: 300px;
+        padding-right: 50px;
+    }
+}

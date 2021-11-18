@@ -1,6 +1,12 @@
 .container {
     width: 1000px;
 }
+.div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
 
 .row {
     display: flex;
@@ -18,7 +24,6 @@
 
   .double-column {
     display: flex;
-    padding-left: 90px !important;
     flex-direction: column;
     flex-basis: 100%;
     flex: 0.7;
