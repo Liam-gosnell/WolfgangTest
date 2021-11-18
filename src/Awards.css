@@ -1,9 +1,13 @@
-.wrapper {
+.awards {
+    width: 100%;
     background-color: whitesmoke;
+}
+.wrapper {
     margin: 0 auto;
     max-width: 1180px;
     width: 100%;
     padding: 0 15px;
+    padding-top: 32px;
 }
 
 .flexbox {
@@ -70,11 +74,11 @@
     color: #6E6E6E;
 }
 
-.awards {
+.awards-container {
     width: 100%;
 }
 
-.awards > p {
+.awards-container > p {
     font-weight: bolder;
     color: #6E6E6E !important;
     line-height: 1.5em;

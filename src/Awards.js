@@ -1,10 +1,12 @@
 import React from 'react';
 import './Awards.css';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
+import data from './awards.json'
 
 function Awards() {
     return (
-        <div className="awards wrapper">
+        <div className="awards">
+        <div className="wrapper">
             <div className="flexbox">
                 <div className="filters">
                     <div className="filter-controls">
@@ -44,8 +46,75 @@ function Awards() {
                         </button>
                     </div>
                 </div>
-                <div className="awards">
+                <div className="awards-container">
                     <p> Viewing <span id="award-count">13</span> of 75 awards </p>
+                    <div className="awards-group">
+                        <div className="year">
+                            {data.map(years => {
+                                return (
+                                    <div key={ years.year }>
+                                        <h2>{ years.year } </h2>
+                                    </div>
+                                )
+                            })}
+                            <span>Click on the award to read more about the winning entry</span>
+                            <span><KeyboardArrowDownIcon /></span>
+                        </div>
+                        <div className="container-2021">
+                            {/* <div className="ceremony">
+                                
+                            </div> */}
+                        </div>
+                    </div>
+                    <div className="awards-group">
+                        <h2 className="year">
+                            2021 
+                        <span>Click on the award to read more about the winning entry</span>
+                        <span><KeyboardArrowDownIcon /></span>
+                        </h2>
+                        <div className="container-2021">
+                            {/* <div className="ceremony">
+                                
+                            </div> */}
+                        </div>
+                    </div>
+                    <div className="awards-group">
+                        <h2 className="year">
+                            2021 
+                        <span>Click on the award to read more about the winning entry</span>
+                        <span><KeyboardArrowDownIcon /></span>
+                        </h2>
+                        <div className="container-2021">
+                            {/* <div className="ceremony">
+                                
+                            </div> */}
+                        </div>
+                    </div>
+                    <div className="awards-group">
+                        <h2 className="year">
+                            2021 
+                        <span>Click on the award to read more about the winning entry</span>
+                        <span><KeyboardArrowDownIcon /></span>
+                        </h2>
+                        <div className="container-2021">
+                            {/* <div className="ceremony">
+                                
+                            </div> */}
+                        </div>
+                    </div>
+                    
+                    <div className="awards-group">
+                        <h2 className="year">
+                            2021 
+                        <span>Click on the award to read more about the winning entry</span>
+                        <span><KeyboardArrowDownIcon /></span>
+                        </h2>
+                        <div className="container-2021">
+                            {/* <div className="ceremony">
+                                
+                            </div> */}
+                        </div>
+                    </div>
                     <div className="awards-group">
                         <h2 className="year">
                             2021 
@@ -61,6 +130,7 @@ function Awards() {
                 </div>
             </div>
         </div>
+    </div>
        
     )
 }
