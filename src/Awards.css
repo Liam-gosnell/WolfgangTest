@@ -70,6 +70,43 @@
     color: #6E6E6E;
 }
 
+.awards {
+    width: 100%;
+}
+
+.awards > p {
+    font-weight: bolder;
+    color: #6E6E6E !important;
+    line-height: 1.5em;
+    margin-bottom: 24px;
+}
+
+.awards-group {
+    background: white;
+    padding: 1rem;
+    margin: 0 0 2rem 0;
+    border-top: 4px solid #634061;
+}
+
+.year {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    position: relative;
+    cursor: pointer;
+    color: #6E6E6E;
+}
+
+.year > span {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+    line-height: 1;
+}
+
+
+
 /* Media Q */
 
 @media only screen and (min-width: 1024px){

@@ -1,6 +1,13 @@
 .container {
     width: 1000px;
 }
+
+h2 {
+  font-size: 1.875em;
+  line-height: 1.28em;
+  margin: 0 0 12px;
+}
+
 .div {
   margin: 0;
   padding: 0;
