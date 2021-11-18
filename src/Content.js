@@ -14,7 +14,7 @@ function Content() {
                  </div>
                 <div class='column'>
                     <div class='img-container'>
-                        <img width="465" src="https://www.wolfgangdigital.com/uploads/general/imageblogsize.jpg" alt="" />
+                        <img height="310" width="465" src="https://www.wolfgangdigital.com/uploads/general/imageblogsize.jpg" alt="" />
                     </div>
                 </div>
             </div>

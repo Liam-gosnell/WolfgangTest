@@ -1,15 +1,31 @@
 .content {
     display: flex;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     padding: 64px 0;
 }
 
+.text-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+}
 
-  .main-paragraph {
-      line-height: 1.75;
-      word-spacing: 4px;
-      color: #6E6E6E !important;
-      font-weight: 400;
-      font-family: Arial, Helvetica, sans-serif;
-  }
+.text-container > p{
+    line-height: 1.75;
+    word-spacing: 4px;
+    color: #6e6e6e;
+    margin-bottom: 24px;
+}
+
+.img-container {
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
