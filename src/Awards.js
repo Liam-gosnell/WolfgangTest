@@ -114,11 +114,11 @@ function Awards() {
                     {toggledYears[year]
                       ? awardsData[year].map((award) => (
                           <div key={award.id} className="award-details">
-                            <h4>{award.ceremony}</h4>
-                            <p>
+                            <h4 className="ceremony-heading">{award.ceremony}</h4>
+                            <p className="ceremony-para">
                               <span>Winner - </span> {award.award}
                             </p>
-                            <img src={`/${award.logo}`} alt={award.ceremony} />
+                            <img src={`${award.logo}`} alt={award.ceremony} />
                           </div>
                         ))
                       : null}

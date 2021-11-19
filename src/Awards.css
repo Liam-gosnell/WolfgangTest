@@ -109,6 +109,11 @@
     line-height: 1;
 }
 
+.award-details{
+    display:flex;
+    flex-direction: row;
+}
+
 
 .ceremony {
     display: flex;
