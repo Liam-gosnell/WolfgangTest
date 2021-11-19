@@ -11,6 +11,18 @@
     padding: 70px 85px 120px;
 }
 
+/* .white-line{
+    background: #fff;
+    bottom: 0;
+    height: 60px;
+    content: "";
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    width: 2px;
+    z-index: 3;
+} */
+
 .banner__content > h1 {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;

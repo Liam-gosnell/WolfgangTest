@@ -4,11 +4,11 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="header white-line">
+        <div className="header">
             <Navigation />
-            <div className="header-wrapper white-line">
+            <div className="header-wrapper">
                 <div className="banner__content">
-                <h1>The Awards Wall</h1>
+                    <h1>The Awards Wall</h1>
                 </div>
             </div>
         </div>
