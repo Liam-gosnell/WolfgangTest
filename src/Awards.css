@@ -110,12 +110,6 @@
 }
 
 
-/* .ceremony {
-    display: flex;
-    border-top: 1px dotted #6DB2AA;
-} */
-
-
 .details__left{
     margin-top: 12px;
 }
@@ -141,6 +135,7 @@
     font-size: 1rem;
     font-weight: normal;
     font-style: italic;
+    color: #6E6E6E;
 }
 
 .winner {

@@ -80,12 +80,7 @@ function Awards() {
           </div>
           <div className="awards-container">
             <p>
-              {" "}
-              Viewing{" "}
-              <span id="award-count">
-                {/* {awardsData.filter((award) => award.isToggled).length} */}
-              </span>{" "}
-              of {awardsData.length} awards{" "}
+              Viewing 0 of 15 awards
             </p>
 
             <div className="award-list">
